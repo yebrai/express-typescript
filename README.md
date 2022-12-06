@@ -11,3 +11,5 @@
 1. `npm run tsc` Compila | `npm start` Inicia server en 3000
 
 1. `npm install ts-node-dev` Este paquete nos mantiene la compilacion activa y el server escuchando. Ejecutar con `npm run dev`
+
+1. `npm install ts-standard` linter 
