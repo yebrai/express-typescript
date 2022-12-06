@@ -12,4 +12,4 @@
 
 1. `npm install ts-node-dev` Este paquete nos mantiene la compilacion activa y el server escuchando. Ejecutar con `npm run dev`
 
-1. `npm install ts-standard` linter 
+1. `npm install ts-standard` linter 37.04 
