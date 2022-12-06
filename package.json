@@ -1,5 +1,29 @@
 {
   "dependencies": {
+    "@types/express": "^4.17.14",
+    "express": "^4.18.2",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^4.9.3"
-  }
+  },
+  "name": "express-typescript",
+  "description": "1. Inicializamos por defecto(node_modules, package.json...)\r `npm init -y`",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "node build/index.js",
+    "dev": "ts-node-dev src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yebrai/express-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yebrai/express-typescript/issues"
+  },
+  "homepage": "https://github.com/yebrai/express-typescript#readme"
 }
