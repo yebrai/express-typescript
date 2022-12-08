@@ -13,3 +13,13 @@
 1. `npm install ts-node-dev` Este paquete nos mantiene la compilacion activa y el server escuchando. Ejecutar con `npm run dev`
 
 1. `npm install ts-standard` linter y configurar el script `"lint": "ts-standard"`
+
+1. Configurar en el package.json: 
+`"eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "./node_modules/ts-standard/eslintrc.json"
+    ]
+  }`
