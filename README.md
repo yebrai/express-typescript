@@ -15,11 +15,13 @@
 1. `npm install ts-standard` linter y configurar el script `"lint": "ts-standard"`
 
 1. Configurar en el package.json: 
-`"eslintConfig": {
+```
+"eslintConfig": {
     "parserOptions": {
       "project": "./tsconfig.json"
     },
     "extends": [
       "./node_modules/ts-standard/eslintrc.json"
     ]
-  }`
+  }
+  ```
